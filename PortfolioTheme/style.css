@@ -1,0 +1,123 @@
+/*
+Theme Name: Portfolio
+Author: the Vladimir Dolzhykov
+Version: 1.0
+*/
+#title-logo{
+    font-size: 40px !important;
+}
+
+div.col-xs-6 > div.logo > a > #title-logo{
+    text-transform: uppercase;
+    color: white;
+    font-size: 35px !important;
+}
+
+
+
+.carousel-centered{
+    top: 80% !important;
+}
+
+/* Пагинация */
+.page-numbers{
+    background: #81848f !important;
+    color: #fff !important;
+    padding: 4px 12px !important;
+}
+.page-numbers:hover{
+    background: #515769 !important;
+    color: #fff !important;
+}
+span.current{
+    background: #515769 !important;
+}
+
+/* Комментарии */
+.sinlge-post-meta {
+    overflow: hidden;
+    padding-left: 0;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.sinlge-post-meta li {
+    background: #F0F0E9;
+    color: #363432;
+    float: left;
+    margin-right: 10px;
+    padding: 0 10px 0 0;
+    position: relative;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.response-area .media {
+    border: 1px solid #F7F7F0;
+    padding: 18px 18px 18px 0;
+    margin-bottom: 27px;
+}
+
+form > input.form-control{
+    border: 1px solid black !important;
+}
+form > textarea.form-control{
+    border: 1px solid black !important;
+}
+
+.single-post{
+    padding: 18px 18px 18px 18px;
+}
+
+ul.tag{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+input.wpcf7-form-control{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-width: 0;
+    background: #17bed2;
+    color: #fff;
+    border-color: transparent;
+}
+
+div.wpcf7-response-output{
+    color: white;
+}
+
+.nivoZoomHover {
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:9;
+    width:100%;
+    height:100%;
+    cursor:pointer;
+}
+.nivoCaption {
+    display:none;
+    position:absolute;
+    z-index:110;
+    text-align:center;
+    background:#010101;
+    color:#fff;
+    padding:4px 0;
+    overflow:hidden;
+}
+
+.current-menu-item {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 9px;
+    height: 2px;
+    background: #17bed2;
+    opacity: 0;
+    content: " ";
+    transition-duration: .4s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.7, 1, .7, 1);
+}
